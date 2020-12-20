@@ -8,16 +8,16 @@ import (
 	"os"
 )
 
-var host = os.Getenv("HOST")
-var port = os.Getenv("PORT")
-var user = os.Getenv("USER")
-var password = os.Getenv("PASSWORD")
+var dbHost = os.Getenv("HOST")
+var dbPort = os.Getenv("PORT")
+var dbUser = os.Getenv("USER")
+var dbPassword = os.Getenv("PASSWORD")
 var dbname = os.Getenv("DBNAME")
 var sslmode = os.Getenv("SSLMODE")
 
-var dbInfo = fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=%s", host, port, user, password, dbname, sslmode)
+var dbInfo = fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=%s", dbHost, dbPort, dbUser, dbPassword, dbname, sslmode)
 
-//todo: store history of messages and save whole telegram user extra fields as json for future updates
+//todo: store history of messages and save whole telegram dbUser extra fields as json for future updates
 func saveUser(user User) error {
 
 	//Подключаемся к БД
