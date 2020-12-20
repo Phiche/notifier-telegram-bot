@@ -1,0 +1,2 @@
+CREATE USER notifier WITH ENCRYPTED PASSWORD 'password';
+GRANT SELECT, UPDATE, INSERT ON users to notifier;
