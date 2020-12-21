@@ -15,5 +15,20 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="heroku" uuid="b5a35631-77ca-4b05-9f46-2340f0eec231">
+      <database-info product="PostgreSQL" version="12.5 (Ubuntu 12.5-1.pgdg16.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.5" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>yhkfxdsznzxgcp</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>

@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="add migration">
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="call manual migration">
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -131,17 +134,22 @@
     <MESSAGE value="change port variable name to heroku default" />
     <MESSAGE value="call migration script" />
     <MESSAGE value="add migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add migration" />
+    <MESSAGE value="call manual migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="call manual migration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="688" y="473" key="#GOROOT/0.23.1792.1027@0.23.1792.1027" timestamp="1608404358968" />
-    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608571927617">
+    <state x="571" y="435" key="#Go_Modules" timestamp="1608581363153">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608571927617" />
+    <state x="571" y="435" key="#Go_Modules/0.23.1792.1027@0.23.1792.1027" timestamp="1608581363153" />
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608581624837">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608581624837" />
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608559931151">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -186,22 +194,22 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="248" height="471" key="HiddenNamespacesPopup/0.23.1792.1027@0.23.1792.1027" timestamp="1608406306413" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1608573236876">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1608581660252">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608573236876" />
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608578066857">
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608581660252" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608578525573">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608578066857" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608578525573" />
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.23.1792.1027@0.23.1792.1027" timestamp="1608405978108" />
-    <state x="469" y="227" width="604" height="735" key="find.popup" timestamp="1608573714535">
+    <state x="469" y="227" width="604" height="735" key="find.popup" timestamp="1608579284645">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="469" y="227" width="604" height="735" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608573714535" />
+    <state x="469" y="227" width="604" height="735" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608579284645" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
