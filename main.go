@@ -26,14 +26,14 @@ func main() {
 
 	clientBot.Handle("/start", func(m *tb.Message) {
 		log.Println("start handled!")
-		userJoined := m.UserJoined
+		sender := m.Sender
 		chat := m.Chat
 
-		user := User{userJoined.ID,
+		user := User{sender.ID,
 			chat.ID,
-			userJoined.FirstName,
-			userJoined.LastName,
-			userJoined.Username,
+			sender.FirstName,
+			sender.LastName,
+			sender.Username,
 			time.Unix(m.Unixtime, 0)}
 		err := saveUser(user)
 		log.Fatal(err)
