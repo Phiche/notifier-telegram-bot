@@ -8,10 +8,10 @@ import (
 	"os"
 )
 
-var dbHost = os.Getenv("HOST")
-var dbPort = os.Getenv("PORT")
-var dbUser = os.Getenv("USER")
-var dbPassword = os.Getenv("PASSWORD")
+var dbHost = os.Getenv("DB_HOST")
+var dbPort = os.Getenv("DB_PORT")
+var dbUser = os.Getenv("DB_USER")
+var dbPassword = os.Getenv("DB_PASSWORD")
 var dbname = os.Getenv("DBNAME")
 var sslmode = os.Getenv("SSLMODE")
 

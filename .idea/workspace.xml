@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="change Procfile" />
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="add godep">
+      <change afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewUserSaver.go" beforeDir="false" afterPath="$PROJECT_DIR$/NewUserSaver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminBot.go" beforeDir="false" afterPath="$PROJECT_DIR$/adminBot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,25 +128,26 @@
     <MESSAGE value="add message admin control" />
     <MESSAGE value="add procfile and godep" />
     <MESSAGE value="change Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Procfile" />
+    <MESSAGE value="add godep" />
+    <option name="LAST_COMMIT_MESSAGE" value="add godep" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="688" y="473" key="#GOROOT/0.23.1792.1027@0.23.1792.1027" timestamp="1608404358968" />
-    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608488048940">
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608571927617">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608488048940" />
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608571927617" />
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608559931151">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1027@0.23.1792.1027" timestamp="1608559931151" />
-    <state x="1021" y="271" key="EnvironmentVariablesDialog" timestamp="1608488047424">
+    <state x="1021" y="271" key="EnvironmentVariablesDialog" timestamp="1608571926003">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608488047424" />
+    <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608571926003" />
     <state width="1358" height="238" key="GridCell.Tab.0.bottom" timestamp="1608488051037">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -177,14 +184,14 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="248" height="471" key="HiddenNamespacesPopup/0.23.1792.1027@0.23.1792.1027" timestamp="1608406306413" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1608494021254">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1608573236876">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608494021254" />
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608561187633">
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608573236876" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608562081795">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608561187633" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608562081794" />
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -195,7 +202,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/adminBot.go</url>
-          <line>40</line>
+          <line>20</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

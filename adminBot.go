@@ -4,39 +4,19 @@ import (
 	tb "gopkg.in/tucnak/telebot.v2"
 	"os"
 	"strings"
-	"time"
 )
 
 var adminToken = os.Getenv("ADMIN_TOKEN")
 
-//var serverPort = os.Getenv("PORT")
-//var publicURL = os.Getenv("PUBLIC_URL")
+//var poller = &tb.LongPoller{Timeout: 15 * time.Second}
 
-/*var webhook = &tb.Webhook{
-Listen:   ":" + serverPort,
-Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL},
-}*/
-
-var poller = &tb.LongPoller{Timeout: 15 * time.Second}
-var spamProtected = tb.NewMiddlewarePoller(poller, func(upd *tb.Update) bool {
-	if upd.Message == nil {
-		return true
-	}
-
-	if strings.Contains(upd.Message.Text, "spam") {
-		return false
-	}
-
-	return true
-})
-
-var pref = tb.Settings{
+var prefAdmin = tb.Settings{
 	Token: adminToken,
 	//Poller: webhook,
 	Poller: spamProtected,
 }
 
-var adminBot, adminErr = tb.NewBot(pref)
+var adminBot, adminErr = tb.NewBot(prefAdmin)
 
 func adminMenu() {
 	adminBot.Handle(tb.OnText, func(m *tb.Message) {
