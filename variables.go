@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-var serverPort = os.Getenv("PUBLIC_PORT")
+var serverPort = os.Getenv("PORT")
 var publicURL = os.Getenv("PUBLIC_URL")
 
 var webhook = &tb.Webhook{

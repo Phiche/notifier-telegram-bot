@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="add godep">
-      <change afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="use bot2 lib">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewUserSaver.go" beforeDir="false" afterPath="$PROJECT_DIR$/NewUserSaver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminBot.go" beforeDir="false" afterPath="$PROJECT_DIR$/adminBot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +126,8 @@
     <MESSAGE value="add procfile and godep" />
     <MESSAGE value="change Procfile" />
     <MESSAGE value="add godep" />
-    <option name="LAST_COMMIT_MESSAGE" value="add godep" />
+    <MESSAGE value="use bot2 lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="use bot2 lib" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
@@ -188,14 +186,18 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608573236876" />
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608562081795">
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608573722791">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608562081794" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608573722791" />
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.23.1792.1027@0.23.1792.1027" timestamp="1608405978108" />
+    <state x="469" y="227" width="604" height="735" key="find.popup" timestamp="1608573714535">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="469" y="227" width="604" height="735" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608573714535" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
