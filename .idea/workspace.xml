@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="drop migration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminBot.go" beforeDir="false" afterPath="$PROJECT_DIR$/adminBot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="delete modules">
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,9 @@
     <MESSAGE value="add migration" />
     <MESSAGE value="call manual migration" />
     <MESSAGE value="drop migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="drop migration" />
+    <MESSAGE value="add logs" />
+    <MESSAGE value="delete modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete modules" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
@@ -157,22 +157,22 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608571926003" />
-    <state width="1358" height="238" key="GridCell.Tab.0.bottom" timestamp="1608488051037">
+    <state width="930" height="198" key="GridCell.Tab.0.bottom" timestamp="1608582755089">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="238" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051037" />
-    <state width="1358" height="238" key="GridCell.Tab.0.center" timestamp="1608488051037">
+    <state width="930" height="198" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755089" />
+    <state width="930" height="198" key="GridCell.Tab.0.center" timestamp="1608582755087">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="238" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051037" />
-    <state width="1358" height="238" key="GridCell.Tab.0.left" timestamp="1608488051036">
+    <state width="930" height="198" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755087" />
+    <state width="930" height="198" key="GridCell.Tab.0.left" timestamp="1608582755087">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="238" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051036" />
-    <state width="1358" height="238" key="GridCell.Tab.0.right" timestamp="1608488051037">
+    <state width="930" height="198" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755087" />
+    <state width="930" height="198" key="GridCell.Tab.0.right" timestamp="1608582755087">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="238" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051037" />
+    <state width="930" height="198" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755087" />
     <state width="1358" height="330" key="GridCell.Tab.1.bottom" timestamp="1608486463364">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -197,10 +197,10 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608582737273" />
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608581716313">
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608582894956">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608581716313" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608582894956" />
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
