@@ -1,1 +1,1 @@
-web: .
+web: notifier-telegram-bot
