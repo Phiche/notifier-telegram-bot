@@ -1,6 +1,9 @@
 package main
 
 import (
+	"github.com/golang-migrate/migrate/v4"
+	_ "github.com/golang-migrate/migrate/v4/database/postgres"
+	_ "github.com/golang-migrate/migrate/v4/source/file"
 	tb "gopkg.in/tucnak/telebot.v2"
 	"log"
 	"os"
@@ -21,6 +24,8 @@ func main() {
 	if clientErr != nil {
 		log.Panic(clientErr)
 	}
+
+	migrateDb()
 
 	adminMenu()
 
@@ -45,5 +50,17 @@ func sendMessageToAll(message string) {
 	usersIds := getChatsId()
 	for _, id := range usersIds {
 		clientBot.Send(tb.ChatID(id), message)
+	}
+}
+
+func migrateDb() {
+	m, err := migrate.New(
+		"file://migrations",
+		databaseUrl+"?sslmode=disable")
+	if err != nil {
+		log.Fatal(err)
+	}
+	if err := m.Up(); err != nil {
+		log.Fatal(err)
 	}
 }

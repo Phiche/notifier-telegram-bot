@@ -7,6 +7,7 @@ import (
 )
 
 var serverPort = os.Getenv("PORT")
+var databaseUrl = os.Getenv("DATABASE_URL")
 var publicURL = os.Getenv("PUBLIC_URL")
 
 var webhook = &tb.Webhook{
