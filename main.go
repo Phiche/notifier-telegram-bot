@@ -24,8 +24,6 @@ func main() {
 
 	log.Println("main job starts!")
 
-	go adminMenu()
-
 	clientBot.Handle("/start", func(m *tb.Message) {
 		log.Println("start handled!")
 		userJoined := m.UserJoined
@@ -42,6 +40,7 @@ func main() {
 	})
 
 	log.Println("clientBot before start!")
+	go adminMenu()
 	clientBot.Start()
 	log.Println("clientBot started!")
 }
