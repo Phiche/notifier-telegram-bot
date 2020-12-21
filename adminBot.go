@@ -22,6 +22,7 @@ var adminBot, adminErr = tb.NewBot(prefAdmin)
 func adminMenu() {
 	log.Println("admin job starts!")
 	adminBot.Handle(tb.OnText, func(m *tb.Message) {
+		log.Println("admin handled on text!")
 		if !m.Private() {
 			return
 		}
