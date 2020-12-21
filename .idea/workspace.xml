@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="change Procfile" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ll0F2nfT3NOxAYzyoq8ftufZi0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/storage" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build notifier-telegram-bot/">
+    <configuration name="go build notifier-telegram-bot/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="notifier-telegram-bot" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go install" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="notifier-telegram-bot" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="PORT" value="5432" />
+        <env name="PASSWORD" value="password" />
+        <env name="DBNAME" value="bot_clients" />
+        <env name="SSLMODE" value="disable" />
+        <env name="CLIENT_TOKEN" value="1414955792:AAGflb75_tjCI_o5ifCdpT9cmxOLoOsgMzs" />
+        <env name="ADMIN_TOKEN" value="1284184052:AAH4Z3Oblk5gy-trM7bkQz0g9JZPgRTA8Zc" />
+        <env name="HOST" value="localhost" />
+        <env name="USER" value="notifier" />
+      </envs>
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go install" />
+        <item itemvalue="Go Build.go build notifier-telegram-bot/" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ugly version, but it works fine :3" />
+    <MESSAGE value="add message admin control" />
+    <MESSAGE value="add procfile and godep" />
+    <MESSAGE value="change Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="change Procfile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="688" y="473" key="#GOROOT/0.23.1792.1027@0.23.1792.1027" timestamp="1608404358968" />
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608488048940">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608488048940" />
+    <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608559931151">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1027@0.23.1792.1027" timestamp="1608559931151" />
+    <state x="1021" y="271" key="EnvironmentVariablesDialog" timestamp="1608488047424">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608488047424" />
+    <state width="1358" height="238" key="GridCell.Tab.0.bottom" timestamp="1608488051037">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="238" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051037" />
+    <state width="1358" height="238" key="GridCell.Tab.0.center" timestamp="1608488051037">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="238" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051037" />
+    <state width="1358" height="238" key="GridCell.Tab.0.left" timestamp="1608488051036">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="238" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051036" />
+    <state width="1358" height="238" key="GridCell.Tab.0.right" timestamp="1608488051037">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="238" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1608488051037" />
+    <state width="1358" height="330" key="GridCell.Tab.1.bottom" timestamp="1608486463364">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463364" />
+    <state width="1358" height="330" key="GridCell.Tab.1.center" timestamp="1608486463364">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="330" key="GridCell.Tab.1.center/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463364" />
+    <state width="1358" height="330" key="GridCell.Tab.1.left" timestamp="1608486463363">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="330" key="GridCell.Tab.1.left/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463363" />
+    <state width="1358" height="330" key="GridCell.Tab.1.right" timestamp="1608486463364">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="1358" height="330" key="GridCell.Tab.1.right/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463364" />
+    <state width="248" height="471" key="HiddenNamespacesPopup" timestamp="1608406306413">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="248" height="471" key="HiddenNamespacesPopup/0.23.1792.1027@0.23.1792.1027" timestamp="1608406306413" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1608494021254">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608494021254" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608561187633">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608561187633" />
+    <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.23.1792.1027@0.23.1792.1027" timestamp="1608405978108" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/adminBot.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
