@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="call manual migration">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="drop migration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminBot.go" beforeDir="false" afterPath="$PROJECT_DIR$/adminBot.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +133,8 @@
     <MESSAGE value="call migration script" />
     <MESSAGE value="add migration" />
     <MESSAGE value="call manual migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="call manual migration" />
+    <MESSAGE value="drop migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop migration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
@@ -194,14 +193,14 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="248" height="471" key="HiddenNamespacesPopup/0.23.1792.1027@0.23.1792.1027" timestamp="1608406306413" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1608581660252">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1608582737273">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608581660252" />
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608578525573">
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608582737273" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608581716313">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608578525573" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608581716313" />
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -216,7 +215,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/adminBot.go</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

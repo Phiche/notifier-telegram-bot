@@ -22,9 +22,12 @@ func main() {
 		log.Panic(clientErr)
 	}
 
+	log.Println("main job starts!")
+
 	adminMenu()
 
 	clientBot.Handle("/start", func(m *tb.Message) {
+		log.Println("start handled!")
 		userJoined := m.UserJoined
 		chat := m.Chat
 
@@ -39,6 +42,7 @@ func main() {
 	})
 
 	clientBot.Start()
+	log.Println("clientBot started!")
 }
 
 func sendMessageToAll(message string) {

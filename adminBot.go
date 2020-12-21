@@ -2,6 +2,7 @@ package main
 
 import (
 	tb "gopkg.in/tucnak/telebot.v2"
+	"log"
 	"os"
 	"strings"
 )
@@ -19,6 +20,7 @@ var prefAdmin = tb.Settings{
 var adminBot, adminErr = tb.NewBot(prefAdmin)
 
 func adminMenu() {
+	log.Println("admin job starts!")
 	adminBot.Handle(tb.OnText, func(m *tb.Message) {
 		if !m.Private() {
 			return
@@ -32,4 +34,5 @@ func adminMenu() {
 	})
 
 	adminBot.Start()
+	log.Println("adminBot started!")
 }
