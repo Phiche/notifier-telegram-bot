@@ -36,7 +36,7 @@ func main() {
 			sender.Username,
 			time.Unix(m.Unixtime, 0)}
 		err := saveUser(user)
-		log.Fatal(err)
+		log.Println(err)
 	})
 
 	log.Println("clientBot before start!")
