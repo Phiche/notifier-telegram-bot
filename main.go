@@ -24,7 +24,7 @@ func main() {
 
 	log.Println("main job starts!")
 
-	adminMenu()
+	go adminMenu()
 
 	clientBot.Handle("/start", func(m *tb.Message) {
 		log.Println("start handled!")
