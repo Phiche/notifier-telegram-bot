@@ -33,6 +33,7 @@ func adminMenu() {
 		}
 	})
 
+	log.Println("adminBot before start!")
 	adminBot.Start()
 	log.Println("adminBot started!")
 }

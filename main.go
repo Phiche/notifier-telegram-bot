@@ -11,7 +11,7 @@ var clientToken = os.Getenv("CLIENT_TOKEN")
 
 var prefClient = tb.Settings{
 	Token:  clientToken,
-	Poller: webhook,
+	Poller: clientWebhook,
 	//Poller: spamProtected,
 }
 
@@ -41,6 +41,7 @@ func main() {
 		log.Fatal(err)
 	})
 
+	log.Println("clientBot before start!")
 	clientBot.Start()
 	log.Println("clientBot started!")
 }
