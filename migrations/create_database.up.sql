@@ -1,1 +1,1 @@
-CREATE DATABASE bot_clients;
+CREATE DATABASE IF NOT EXISTS bot_clients;

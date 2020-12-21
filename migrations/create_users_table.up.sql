@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
   user_id integer unique,
   chat_id integer unique,
   first_name varchar,
