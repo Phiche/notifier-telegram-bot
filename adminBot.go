@@ -12,9 +12,9 @@ var adminToken = os.Getenv("ADMIN_TOKEN")
 //var poller = &tb.LongPoller{Timeout: 15 * time.Second}
 
 var prefAdmin = tb.Settings{
-	Token: adminToken,
-	//Poller: webhook,
-	Poller: spamProtected,
+	Token:  adminToken,
+	Poller: webhook,
+	//Poller: spamProtected,
 }
 
 var adminBot, adminErr = tb.NewBot(prefAdmin)
