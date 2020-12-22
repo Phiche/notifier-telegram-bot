@@ -17,7 +17,7 @@ var webhook = &tb.Webhook{
 
 var clientWebhook = &tb.Webhook{
 	Listen:   ":" + serverPort,
-	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL},
+	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/test"},
 }
 
 var spamProtected = tb.NewMiddlewarePoller(webhook, func(upd *tb.Update) bool {
