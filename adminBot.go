@@ -14,7 +14,7 @@ var adminToken = os.Getenv("ADMIN_TOKEN")
 var prefAdmin = tb.Settings{
 	Token: adminToken,
 	//Poller: webhook,
-	Poller: spamProtected,
+	Poller: adminWebhook,
 }
 
 var adminBot, adminErr = tb.NewBot(prefAdmin)
@@ -32,10 +32,6 @@ func adminMenu() {
 		if strings.HasPrefix(m.Text, "Постик:") {
 			sendMessageToAll(strings.TrimPrefix(m.Text, "Постик:"))
 		}
-	})
-
-	clientBot.Handle("/start", func(m *tb.Message) {
-		log.Println("admin start handled!")
 	})
 
 	log.Println("adminBot before start!")
