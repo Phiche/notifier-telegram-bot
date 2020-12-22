@@ -38,7 +38,7 @@ func main() {
 		err := saveUser(user)
 		log.Println(err)
 	})
-	go adminMenu()
+	//go adminMenu()
 	log.Println("clientBot before start!")
 	clientBot.Start()
 	log.Println("clientBot started!")
