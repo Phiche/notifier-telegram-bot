@@ -15,11 +15,6 @@ var webhook = &tb.Webhook{
 	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/botClient"},
 }
 
-var adminWebhook = &tb.Webhook{
-	Listen:   ":" + serverPort,
-	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/botAdmin"},
-}
-
 var spamProtected = tb.NewMiddlewarePoller(webhook, func(upd *tb.Update) bool {
 	if upd.Message == nil {
 		return true

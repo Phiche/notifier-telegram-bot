@@ -7,19 +7,28 @@ import (
 	"strings"
 )
 
-var adminToken = os.Getenv("ADMIN_TOKEN")
-
 //var poller = &tb.LongPoller{Timeout: 15 * time.Second}
 
-var prefAdmin = tb.Settings{
-	Token: adminToken,
-	//Poller: webhook,
-	Poller: adminWebhook,
-}
-
-var adminBot, adminErr = tb.NewBot(prefAdmin)
-
 func adminMenu() {
+	var adminToken = os.Getenv("ADMIN_TOKEN")
+
+	var adminWebhook = &tb.Webhook{
+		Listen:   ":" + serverPort,
+		Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/botAdmin"},
+	}
+
+	var prefAdmin = tb.Settings{
+		Token: adminToken,
+		//Poller: webhook,
+		Poller: adminWebhook,
+	}
+
+	var adminBot, adminErr = tb.NewBot(prefAdmin)
+
+	if adminErr != nil {
+		log.Panic(adminErr)
+	}
+
 	log.Println("admin job starts!")
 	adminBot.Handle(tb.OnText, func(m *tb.Message) {
 		log.Println("admin handled on text!")
