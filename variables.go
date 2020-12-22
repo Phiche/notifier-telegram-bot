@@ -12,12 +12,12 @@ var publicURL = os.Getenv("PUBLIC_URL")
 
 var webhook = &tb.Webhook{
 	Listen:   ":" + serverPort,
-	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL},
+	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/botClient"},
 }
 
 var adminWebhook = &tb.Webhook{
 	Listen:   ":" + serverPort,
-	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL},
+	Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/botAdmin"},
 }
 
 var spamProtected = tb.NewMiddlewarePoller(webhook, func(upd *tb.Update) bool {
