@@ -34,6 +34,10 @@ func adminMenu() {
 		}
 	})
 
+	clientBot.Handle("/start", func(m *tb.Message) {
+		log.Println("admin start handled!")
+	})
+
 	log.Println("adminBot before start!")
 	adminBot.Start()
 	log.Println("adminBot started!")
