@@ -11,7 +11,7 @@ var clientToken = os.Getenv("CLIENT_TOKEN")
 
 var prefClient = tb.Settings{
 	Token:  clientToken,
-	Poller: clientWebhook,
+	Poller: webhook,
 	//Poller: spamProtected,
 }
 
