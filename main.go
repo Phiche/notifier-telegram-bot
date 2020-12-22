@@ -10,9 +10,9 @@ import (
 var clientToken = os.Getenv("CLIENT_TOKEN")
 
 var prefClient = tb.Settings{
-	Token:  clientToken,
-	Poller: webhook,
-	//Poller: spamProtected,
+	Token: clientToken,
+	//Poller: webhook,
+	Poller: spamProtected,
 }
 
 var clientBot, clientErr = tb.NewBot(prefClient)
@@ -25,7 +25,7 @@ func main() {
 	log.Println("main job starts!")
 
 	clientBot.Handle("/start", func(m *tb.Message) {
-		log.Println("addnews handled!")
+		log.Println("start handled!")
 		sender := m.Sender
 		chat := m.Chat
 
