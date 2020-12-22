@@ -24,7 +24,7 @@ func main() {
 
 	log.Println("main job starts!")
 
-	clientBot.Handle("/addnews", func(m *tb.Message) {
+	clientBot.Handle("/start", func(m *tb.Message) {
 		log.Println("addnews handled!")
 		sender := m.Sender
 		chat := m.Chat
