@@ -10,14 +10,14 @@ import (
 var clientToken = os.Getenv("CLIENT_TOKEN")
 
 var prefClient = tb.Settings{
-	Token: clientToken,
-	//Poller: webhook,
+	Token:  clientToken,
 	Poller: spamProtected,
 }
 
 var clientBot, clientErr = tb.NewBot(prefClient)
 
 func main() {
+	go adminMenu()
 	if clientErr != nil {
 		log.Panic(clientErr)
 	}
@@ -38,7 +38,6 @@ func main() {
 		err := saveUser(user)
 		log.Println(err)
 	})
-	go adminMenu()
 	log.Println("clientBot before start!")
 	clientBot.Start()
 	log.Println("clientBot started!")

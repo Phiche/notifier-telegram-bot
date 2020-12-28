@@ -18,8 +18,7 @@ func adminMenu() {
 	}
 
 	var prefAdmin = tb.Settings{
-		Token: adminToken,
-		//Poller: webhook,
+		Token:  adminToken,
 		Poller: adminWebhook,
 	}
 

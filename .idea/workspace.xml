@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="off admin menu call">
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="call admin method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminBot.go" beforeDir="false" afterPath="$PROJECT_DIR$/adminBot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build notifier-telegram-bot/">
+  <component name="RunManager" selected="Go Build.go install">
     <configuration name="go build notifier-telegram-bot/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="notifier-telegram-bot" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,13 +85,14 @@
       <module name="notifier-telegram-bot" />
       <working_directory value="$PROJECT_DIR$" />
       <envs>
-        <env name="PORT" value="5432" />
-        <env name="PASSWORD" value="password" />
+        <env name="DB_PORT" value="5432" />
+        <env name="DB_PASSWORD" value="password" />
         <env name="DBNAME" value="bot_clients" />
         <env name="SSLMODE" value="disable" />
         <env name="CLIENT_TOKEN" value="1414955792:AAGflb75_tjCI_o5ifCdpT9cmxOLoOsgMzs" />
         <env name="ADMIN_TOKEN" value="1284184052:AAH4Z3Oblk5gy-trM7bkQz0g9JZPgRTA8Zc" />
-        <env name="HOST" value="localhost" />
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_USER" value="notifier" />
         <env name="USER" value="notifier" />
       </envs>
       <kind value="DIRECTORY" />
@@ -99,6 +100,10 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build notifier-telegram-bot/" />
+      <item itemvalue="Go Build.go install" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go install" />
@@ -159,58 +164,58 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="571" y="435" key="#Go_Modules/0.23.1792.1027@0.23.1792.1027" timestamp="1608581363153" />
-    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608581624837">
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609150367018">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608581624837" />
+    <state x="483" y="139" width="1071" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1609150367018" />
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608559931151">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="620" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1027@0.23.1792.1027" timestamp="1608559931151" />
-    <state x="1021" y="271" key="EnvironmentVariablesDialog" timestamp="1608571926003">
+    <state x="1021" y="271" key="EnvironmentVariablesDialog" timestamp="1609150365500">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608571926003" />
-    <state width="930" height="198" key="GridCell.Tab.0.bottom" timestamp="1608582755089">
+    <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1609150365500" />
+    <state width="1358" height="237" key="GridCell.Tab.0.bottom" timestamp="1609150786157">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="930" height="198" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755089" />
-    <state width="930" height="198" key="GridCell.Tab.0.center" timestamp="1608582755087">
+    <state width="1358" height="237" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786157" />
+    <state width="1358" height="237" key="GridCell.Tab.0.center" timestamp="1609150786156">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="930" height="198" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755087" />
-    <state width="930" height="198" key="GridCell.Tab.0.left" timestamp="1608582755087">
+    <state width="1358" height="237" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786156" />
+    <state width="1358" height="237" key="GridCell.Tab.0.left" timestamp="1609150786155">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="930" height="198" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755087" />
-    <state width="930" height="198" key="GridCell.Tab.0.right" timestamp="1608582755087">
+    <state width="1358" height="237" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786155" />
+    <state width="1358" height="237" key="GridCell.Tab.0.right" timestamp="1609150786156">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="930" height="198" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1608582755087" />
-    <state width="1358" height="330" key="GridCell.Tab.1.bottom" timestamp="1608486463364">
+    <state width="1358" height="237" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786156" />
+    <state width="1358" height="228" key="GridCell.Tab.1.bottom" timestamp="1609149155316">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463364" />
-    <state width="1358" height="330" key="GridCell.Tab.1.center" timestamp="1608486463364">
+    <state width="1358" height="228" key="GridCell.Tab.1.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1609149155316" />
+    <state width="1358" height="228" key="GridCell.Tab.1.center" timestamp="1609149155315">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="330" key="GridCell.Tab.1.center/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463364" />
-    <state width="1358" height="330" key="GridCell.Tab.1.left" timestamp="1608486463363">
+    <state width="1358" height="228" key="GridCell.Tab.1.center/0.23.1792.1027@0.23.1792.1027" timestamp="1609149155315" />
+    <state width="1358" height="228" key="GridCell.Tab.1.left" timestamp="1609149155315">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="330" key="GridCell.Tab.1.left/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463363" />
-    <state width="1358" height="330" key="GridCell.Tab.1.right" timestamp="1608486463364">
+    <state width="1358" height="228" key="GridCell.Tab.1.left/0.23.1792.1027@0.23.1792.1027" timestamp="1609149155315" />
+    <state width="1358" height="228" key="GridCell.Tab.1.right" timestamp="1609149155316">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="330" key="GridCell.Tab.1.right/0.23.1792.1027@0.23.1792.1027" timestamp="1608486463364" />
+    <state width="1358" height="228" key="GridCell.Tab.1.right/0.23.1792.1027@0.23.1792.1027" timestamp="1609149155316" />
     <state width="248" height="471" key="HiddenNamespacesPopup" timestamp="1608406306413">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="248" height="471" key="HiddenNamespacesPopup/0.23.1792.1027@0.23.1792.1027" timestamp="1608406306413" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1608644503569">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1609149334891">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1608644503569" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1609149334891" />
     <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608643786422">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -231,6 +236,11 @@
           <url>file://$PROJECT_DIR$/adminBot.go</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/adminBot.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
