@@ -1,1 +1,1 @@
-web: notifier-telegram-bot
+worker: notifier-telegram-bot

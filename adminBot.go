@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"strings"
+	"time"
 )
 
 //var poller = &tb.LongPoller{Timeout: 15 * time.Second}
@@ -12,14 +13,14 @@ import (
 func adminMenu() {
 	var adminToken = os.Getenv("ADMIN_TOKEN")
 
-	var adminWebhook = &tb.Webhook{
+	/*	var adminWebhook = &tb.Webhook{
 		Listen:   ":" + serverPort,
 		Endpoint: &tb.WebhookEndpoint{PublicURL: publicURL + "/botAdmin"},
-	}
+	}*/
 
 	var prefAdmin = tb.Settings{
 		Token:  adminToken,
-		Poller: adminWebhook,
+		Poller: &tb.LongPoller{Timeout: 10 * time.Second},
 	}
 
 	var adminBot, adminErr = tb.NewBot(prefAdmin)

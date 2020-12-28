@@ -11,7 +11,7 @@ var clientToken = os.Getenv("CLIENT_TOKEN")
 
 var prefClient = tb.Settings{
 	Token:  clientToken,
-	Poller: spamProtected,
+	Poller: &tb.LongPoller{Timeout: 10 * time.Second},
 }
 
 var clientBot, clientErr = tb.NewBot(prefClient)

@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="call admin method">
+    <list default="true" id="827caf49-6557-4f2a-aa38-69c56dc37db9" name="Default Changelist" comment="change admin order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminBot.go" beforeDir="false" afterPath="$PROJECT_DIR$/adminBot.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change port variable name to heroku default" />
     <MESSAGE value="call migration script" />
     <MESSAGE value="add migration" />
     <MESSAGE value="call manual migration" />
@@ -153,7 +154,8 @@
     <MESSAGE value="use admin webhook" />
     <MESSAGE value="change webhook path" />
     <MESSAGE value="off admin menu call" />
-    <option name="LAST_COMMIT_MESSAGE" value="off admin menu call" />
+    <MESSAGE value="change admin order" />
+    <option name="LAST_COMMIT_MESSAGE" value="change admin order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="688" y="473" key="#GOROOT" timestamp="1608404358968">
@@ -176,22 +178,22 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="1021" y="271" key="EnvironmentVariablesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1609150365500" />
-    <state width="1358" height="237" key="GridCell.Tab.0.bottom" timestamp="1609150786157">
+    <state width="930" height="164" key="GridCell.Tab.0.bottom" timestamp="1609151689334">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="237" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786157" />
-    <state width="1358" height="237" key="GridCell.Tab.0.center" timestamp="1609150786156">
+    <state width="930" height="164" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1609151689334" />
+    <state width="930" height="164" key="GridCell.Tab.0.center" timestamp="1609151689333">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="237" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786156" />
-    <state width="1358" height="237" key="GridCell.Tab.0.left" timestamp="1609150786155">
+    <state width="930" height="164" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1609151689333" />
+    <state width="930" height="164" key="GridCell.Tab.0.left" timestamp="1609151689333">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="237" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786155" />
-    <state width="1358" height="237" key="GridCell.Tab.0.right" timestamp="1609150786156">
+    <state width="930" height="164" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1609151689333" />
+    <state width="930" height="164" key="GridCell.Tab.0.right" timestamp="1609151689333">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="1358" height="237" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1609150786156" />
+    <state width="930" height="164" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1609151689333" />
     <state width="1358" height="228" key="GridCell.Tab.1.bottom" timestamp="1609149155316">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
@@ -212,34 +214,34 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="248" height="471" key="HiddenNamespacesPopup/0.23.1792.1027@0.23.1792.1027" timestamp="1608406306413" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1609149334891">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1609151644703">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1609149334891" />
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1608643786422">
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1027@0.23.1792.1027" timestamp="1609151644703" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2" timestamp="1609150978019">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1608643786422" />
+    <state x="496" y="263" key="Vcs.Push.Dialog.v2/0.23.1792.1027@0.23.1792.1027" timestamp="1609150978019" />
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1608405978108">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="705" y="329" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.23.1792.1027@0.23.1792.1027" timestamp="1608405978108" />
-    <state x="469" y="227" width="604" height="735" key="find.popup" timestamp="1608637926137">
+    <state x="469" y="227" width="604" height="735" key="find.popup" timestamp="1609151237669">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="469" y="227" width="604" height="735" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608637926137" />
+    <state x="469" y="227" width="604" height="735" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1609151237669" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/adminBot.go</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/adminBot.go</url>
-          <line>32</line>
+          <line>34</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
